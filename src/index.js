@@ -1,5 +1,7 @@
 module.exports = function count(s, pairs) {
-
+  let counter = 0, len = pairs.length;
+  const modulus = 1000000007;
+  
   N = (pairs[pairs.length - 1][0] ** pairs[pairs.length - 1][1])
 
   How many such integer numbers k exist (0 <= k <= N), which follow next condition: 
@@ -7,6 +9,6 @@ module.exports = function count(s, pairs) {
   greatest common divisor of (k + j and N) is NOT 1 if s[j] === 0.
 
   // answer - task solution
-  const result = answer % 1000000007;
+  const result = answer % modulus;
   return result;
 }
