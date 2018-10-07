@@ -12,3 +12,6 @@ module.exports = function count(s, pairs) {
   const result = answer % modulus;
   return result;
 }
+
+
+NO. JUST NO. 
